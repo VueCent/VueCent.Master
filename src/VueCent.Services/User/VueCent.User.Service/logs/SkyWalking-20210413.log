@@ -1,0 +1,631 @@
+2021-04-13 13:31:01.141 +08:00 [VueCent.User.Service] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-04-13 13:31:01.182 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-04-13 13:31:01.182 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-04-13 13:31:01.182 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-04-13 13:31:01.183 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-04-13 13:31:01.183 +08:00 [VueCent.User.Service] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-04-13 13:31:01.183 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2021-04-13 13:31:01.239 +08:00 [VueCent.User.Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-04-13 13:31:01.240 +08:00 [VueCent.User.Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-04-13 13:31:01.240 +08:00 [VueCent.User.Service] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-04-13 13:31:01.722 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[172.17.9.74:11800].
+2021-04-13 13:31:01.804 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.RegisterService : Reported Service Instance Properties[Service=VueCent.User.Service,InstanceId=172.17.9.65@8bc2aa1f69424d16a2946989473dd705].
+2021-04-13 13:31:04.288 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 3 trace segment. cost: 00:00:00.0873541s
+2021-04-13 13:31:07.204 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0068439s
+2021-04-13 13:31:13.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0106656s
+2021-04-13 13:31:22.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0087142s
+2021-04-13 13:31:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0080802s
+2021-04-13 13:31:31.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:31:31 +00:00
+2021-04-13 13:31:31.225 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32765 32767 1000 1000
+2021-04-13 13:31:40.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0051594s
+2021-04-13 13:31:43.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0072455s
+2021-04-13 13:31:52.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052772s
+2021-04-13 13:32:01.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071355s
+2021-04-13 13:32:01.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:32:13.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0071856s
+2021-04-13 13:32:22.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071553s
+2021-04-13 13:32:31.208 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0169245s
+2021-04-13 13:32:31.231 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:32:31 +00:00
+2021-04-13 13:32:31.242 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 3M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:32:43.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052652s
+2021-04-13 13:32:52.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0112093s
+2021-04-13 13:33:01.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 3M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:33:01.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0089702s
+2021-04-13 13:33:13.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0062092s
+2021-04-13 13:33:16.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0072744s
+2021-04-13 13:33:22.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050790s
+2021-04-13 13:33:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:33:31 +00:00
+2021-04-13 13:33:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 5M ThreadPool 32759 32767 1000 1000
+2021-04-13 13:33:31.211 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0191520s
+2021-04-13 13:33:43.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052194s
+2021-04-13 13:33:52.215 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0182768s
+2021-04-13 13:34:01.225 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:34:01.225 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0323138s
+2021-04-13 13:34:13.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0051316s
+2021-04-13 13:34:19.204 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0098761s
+2021-04-13 13:34:22.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0054137s
+2021-04-13 13:34:31.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 1 3M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:34:31.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0089046s
+2021-04-13 13:34:31.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:34:31 +00:00
+2021-04-13 13:34:43.207 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0139523s
+2021-04-13 13:34:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031449s
+2021-04-13 13:35:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0063121s
+2021-04-13 13:35:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.0625 GenCollectCount 2 2 0 3M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:35:13.211 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0142090s
+2021-04-13 13:35:19.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0059951s
+2021-04-13 13:35:22.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0084645s
+2021-04-13 13:35:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0091994s
+2021-04-13 13:35:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 1 1 0 3M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:35:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:35:31 +00:00
+2021-04-13 13:35:43.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045417s
+2021-04-13 13:35:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038361s
+2021-04-13 13:36:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 1 1 0 4M ThreadPool 32765 32767 1000 1000
+2021-04-13 13:36:01.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0130944s
+2021-04-13 13:36:13.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0053107s
+2021-04-13 13:36:19.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031601s
+2021-04-13 13:36:22.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071884s
+2021-04-13 13:36:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:36:31 +00:00
+2021-04-13 13:36:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 3M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:36:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071098s
+2021-04-13 13:36:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030772s
+2021-04-13 13:36:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031344s
+2021-04-13 13:37:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 3M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:37:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0060375s
+2021-04-13 13:37:13.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031347s
+2021-04-13 13:37:22.206 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0110143s
+2021-04-13 13:37:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0065449s
+2021-04-13 13:37:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 5 5 0 3M ThreadPool 32760 32767 1000 1000
+2021-04-13 13:37:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:37:31 +00:00
+2021-04-13 13:37:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041510s
+2021-04-13 13:37:52.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0072092s
+2021-04-13 13:38:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039905s
+2021-04-13 13:38:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 3M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:38:13.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0082812s
+2021-04-13 13:38:22.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0054299s
+2021-04-13 13:38:31.211 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 5 5 1 3M ThreadPool 32762 32767 1000 1000
+2021-04-13 13:38:31.211 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0183784s
+2021-04-13 13:38:31.211 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:38:31 +00:00
+2021-04-13 13:38:43.187 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044422s
+2021-04-13 13:38:52.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031153s
+2021-04-13 13:39:01.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0114110s
+2021-04-13 13:39:01.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 3M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:39:13.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023635s
+2021-04-13 13:39:22.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034418s
+2021-04-13 13:39:25.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044616s
+2021-04-13 13:39:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0051125s
+2021-04-13 13:39:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:39:31 +00:00
+2021-04-13 13:39:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 1 3M ThreadPool 32762 32767 1000 1000
+2021-04-13 13:39:43.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027923s
+2021-04-13 13:39:52.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022027s
+2021-04-13 13:40:01.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071186s
+2021-04-13 13:40:01.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 13:40:13.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0054500s
+2021-04-13 13:40:22.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0081694s
+2021-04-13 13:40:25.206 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0123856s
+2021-04-13 13:40:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:40:31 +00:00
+2021-04-13 13:40:31.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0086116s
+2021-04-13 13:40:31.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 13:40:43.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040938s
+2021-04-13 13:40:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025624s
+2021-04-13 13:41:01.204 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 3M ThreadPool 32759 32767 1000 1000
+2021-04-13 13:41:01.204 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0141752s
+2021-04-13 13:41:13.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0118666s
+2021-04-13 13:41:22.185 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040282s
+2021-04-13 13:41:28.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023819s
+2021-04-13 13:41:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041122s
+2021-04-13 13:41:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32758 32767 1000 1000
+2021-04-13 13:41:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:41:31 +00:00
+2021-04-13 13:41:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027987s
+2021-04-13 13:41:52.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040836s
+2021-04-13 13:42:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031315s
+2021-04-13 13:42:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 13:42:13.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027137s
+2021-04-13 13:42:22.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030653s
+2021-04-13 13:42:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 13:42:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:42:31 +00:00
+2021-04-13 13:42:31.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0079095s
+2021-04-13 13:42:43.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022913s
+2021-04-13 13:42:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025300s
+2021-04-13 13:43:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036584s
+2021-04-13 13:43:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 3M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:43:13.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0048678s
+2021-04-13 13:43:22.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029415s
+2021-04-13 13:43:31.184 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 3M ThreadPool 32763 32767 1000 1000
+2021-04-13 13:43:31.184 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:43:31 +00:00
+2021-04-13 13:43:31.186 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0051951s
+2021-04-13 13:43:43.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031587s
+2021-04-13 13:43:52.190 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050336s
+2021-04-13 13:44:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045131s
+2021-04-13 13:44:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:44:13.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0104057s
+2021-04-13 13:44:22.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049606s
+2021-04-13 13:44:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043340s
+2021-04-13 13:44:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32759 32767 1000 1000
+2021-04-13 13:44:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:44:31 +00:00
+2021-04-13 13:44:34.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025564s
+2021-04-13 13:44:43.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0080252s
+2021-04-13 13:44:52.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031231s
+2021-04-13 13:45:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:45:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035360s
+2021-04-13 13:45:13.184 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021604s
+2021-04-13 13:45:22.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020832s
+2021-04-13 13:45:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038389s
+2021-04-13 13:45:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32758 32767 1000 1000
+2021-04-13 13:45:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:45:31 +00:00
+2021-04-13 13:45:37.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031100s
+2021-04-13 13:45:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021379s
+2021-04-13 13:45:52.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029824s
+2021-04-13 13:46:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 1 1 0 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 13:46:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0068351s
+2021-04-13 13:46:13.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023477s
+2021-04-13 13:46:22.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039546s
+2021-04-13 13:46:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036404s
+2021-04-13 13:46:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:46:31 +00:00
+2021-04-13 13:46:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 3M ThreadPool 32763 32767 1000 1000
+2021-04-13 13:46:37.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041637s
+2021-04-13 13:46:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024108s
+2021-04-13 13:46:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020293s
+2021-04-13 13:47:01.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0098739s
+2021-04-13 13:47:01.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 3M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:47:13.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0046806s
+2021-04-13 13:47:22.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023925s
+2021-04-13 13:47:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 5 5 1 3M ThreadPool 32762 32767 1000 1000
+2021-04-13 13:47:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032109s
+2021-04-13 13:47:31.445 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:47:31 +00:00
+2021-04-13 13:47:40.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031636s
+2021-04-13 13:47:43.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0046104s
+2021-04-13 13:47:52.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0067698s
+2021-04-13 13:48:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 3M ThreadPool 32760 32767 1000 1000
+2021-04-13 13:48:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031174s
+2021-04-13 13:48:13.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031330s
+2021-04-13 13:48:22.293 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050152s
+2021-04-13 13:48:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043068s
+2021-04-13 13:48:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 3M ThreadPool 32760 32767 1000 1000
+2021-04-13 13:48:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:48:31 +00:00
+2021-04-13 13:48:43.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0027222s
+2021-04-13 13:48:52.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022207s
+2021-04-13 13:49:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025712s
+2021-04-13 13:49:01.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 3M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:49:13.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0068668s
+2021-04-13 13:49:22.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022394s
+2021-04-13 13:49:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037677s
+2021-04-13 13:49:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:49:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:49:31 +00:00
+2021-04-13 13:49:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0035818s
+2021-04-13 13:49:52.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0078912s
+2021-04-13 13:50:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 3M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:50:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022867s
+2021-04-13 13:50:13.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024425s
+2021-04-13 13:50:22.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021901s
+2021-04-13 13:50:31.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0101881s
+2021-04-13 13:50:31.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:50:31 +00:00
+2021-04-13 13:50:31.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 4M ThreadPool 32758 32767 1000 1000
+2021-04-13 13:50:43.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020511s
+2021-04-13 13:50:46.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021199s
+2021-04-13 13:50:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020543s
+2021-04-13 13:51:01.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0061859s
+2021-04-13 13:51:01.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.0625 GenCollectCount 2 2 0 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 13:51:13.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021675s
+2021-04-13 13:51:22.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025758s
+2021-04-13 13:51:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 1 3M ThreadPool 32763 32767 1000 1000
+2021-04-13 13:51:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041266s
+2021-04-13 13:51:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:51:31 +00:00
+2021-04-13 13:51:43.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050491s
+2021-04-13 13:51:49.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0054345s
+2021-04-13 13:51:52.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023459s
+2021-04-13 13:52:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:52:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0046725s
+2021-04-13 13:52:13.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022207s
+2021-04-13 13:52:22.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0074423s
+2021-04-13 13:52:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 6 6 1 3M ThreadPool 32762 32767 1000 1000
+2021-04-13 13:52:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:52:31 +00:00
+2021-04-13 13:52:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035286s
+2021-04-13 13:52:43.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0047300s
+2021-04-13 13:52:49.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019062s
+2021-04-13 13:52:52.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019161s
+2021-04-13 13:53:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037246s
+2021-04-13 13:53:01.331 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.03125 GenCollectCount 3 3 0 3M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:53:13.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025497s
+2021-04-13 13:53:19.211 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0198199s
+2021-04-13 13:53:22.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021065s
+2021-04-13 13:53:25.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041224s
+2021-04-13 13:53:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031908s
+2021-04-13 13:53:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 3M ThreadPool 32763 32767 1000 1000
+2021-04-13 13:53:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:53:31 +00:00
+2021-04-13 13:53:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021707s
+2021-04-13 13:53:46.184 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020772s
+2021-04-13 13:53:49.189 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 6 trace segment. cost: 00:00:00.0046245s
+2021-04-13 13:53:52.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0027497s
+2021-04-13 13:54:01.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 5 5 1 4M ThreadPool 32765 32767 1000 1000
+2021-04-13 13:54:01.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025596s
+2021-04-13 13:54:13.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071507s
+2021-04-13 13:54:22.187 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033752s
+2021-04-13 13:54:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:54:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034006s
+2021-04-13 13:54:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:54:31 +00:00
+2021-04-13 13:54:43.222 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0268715s
+2021-04-13 13:54:52.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0064860s
+2021-04-13 13:54:55.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041492s
+2021-04-13 13:55:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031799s
+2021-04-13 13:55:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 13:55:13.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019090s
+2021-04-13 13:55:22.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0061937s
+2021-04-13 13:55:31.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 4M ThreadPool 32756 32767 1000 1000
+2021-04-13 13:55:31.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023865s
+2021-04-13 13:55:31.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:55:31 +00:00
+2021-04-13 13:55:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031922s
+2021-04-13 13:55:52.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0093073s
+2021-04-13 13:55:55.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021819s
+2021-04-13 13:56:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0058269s
+2021-04-13 13:56:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:56:13.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019908s
+2021-04-13 13:56:22.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0059116s
+2021-04-13 13:56:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:56:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033622s
+2021-04-13 13:56:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:56:31 +00:00
+2021-04-13 13:56:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020677s
+2021-04-13 13:56:52.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028974s
+2021-04-13 13:56:58.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023544s
+2021-04-13 13:57:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020599s
+2021-04-13 13:57:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:57:13.335 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031753s
+2021-04-13 13:57:22.229 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0338607s
+2021-04-13 13:57:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 13:57:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:57:31 +00:00
+2021-04-13 13:57:31.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0092322s
+2021-04-13 13:57:43.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024341s
+2021-04-13 13:57:52.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0114205s
+2021-04-13 13:58:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 7 7 1 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:58:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0056175s
+2021-04-13 13:58:13.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0062176s
+2021-04-13 13:58:22.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039542s
+2021-04-13 13:58:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:58:31 +00:00
+2021-04-13 13:58:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 1 3M ThreadPool 32758 32767 1000 1000
+2021-04-13 13:58:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0080707s
+2021-04-13 13:58:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020938s
+2021-04-13 13:58:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018868s
+2021-04-13 13:59:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 13:59:01.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0131335s
+2021-04-13 13:59:04.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016375s
+2021-04-13 13:59:13.189 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019531s
+2021-04-13 13:59:22.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022606s
+2021-04-13 13:59:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32756 32767 1000 1000
+2021-04-13 13:59:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 5:59:31 +00:00
+2021-04-13 13:59:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071161s
+2021-04-13 13:59:43.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019200s
+2021-04-13 13:59:52.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049951s
+2021-04-13 14:00:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020659s
+2021-04-13 14:00:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:00:04.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016580s
+2021-04-13 14:00:13.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023205s
+2021-04-13 14:00:22.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049570s
+2021-04-13 14:00:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030811s
+2021-04-13 14:00:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32757 32767 1000 1000
+2021-04-13 14:00:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:00:31 +00:00
+2021-04-13 14:00:43.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0059521s
+2021-04-13 14:00:52.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0084666s
+2021-04-13 14:01:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:01:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0045928s
+2021-04-13 14:01:07.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017750s
+2021-04-13 14:01:13.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017013s
+2021-04-13 14:01:22.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021012s
+2021-04-13 14:01:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026425s
+2021-04-13 14:01:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32756 32767 1000 1000
+2021-04-13 14:01:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:01:31 +00:00
+2021-04-13 14:01:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019351s
+2021-04-13 14:01:52.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0051862s
+2021-04-13 14:02:01.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 14:02:01.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0061891s
+2021-04-13 14:02:07.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016262s
+2021-04-13 14:02:13.286 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0912682s
+2021-04-13 14:02:22.474 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.2823546s
+2021-04-13 14:02:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029965s
+2021-04-13 14:02:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 7 7 1 4M ThreadPool 32756 32767 1000 1000
+2021-04-13 14:02:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:02:31 +00:00
+2021-04-13 14:02:43.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026911s
+2021-04-13 14:02:52.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024327s
+2021-04-13 14:03:01.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0059962s
+2021-04-13 14:03:01.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32765 32767 1000 1000
+2021-04-13 14:03:10.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022602s
+2021-04-13 14:03:13.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0048918s
+2021-04-13 14:03:22.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0069134s
+2021-04-13 14:03:31.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:03:31 +00:00
+2021-04-13 14:03:31.190 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 0 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 14:03:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0056052s
+2021-04-13 14:03:43.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0087290s
+2021-04-13 14:03:52.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0104247s
+2021-04-13 14:04:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 4M ThreadPool 32765 32767 1000 1000
+2021-04-13 14:04:04.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0067325s
+2021-04-13 14:04:13.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0027648s
+2021-04-13 14:04:22.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016738s
+2021-04-13 14:04:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:04:31.207 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:04:31 +00:00
+2021-04-13 14:04:34.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0097995s
+2021-04-13 14:04:43.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019143s
+2021-04-13 14:04:52.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019915s
+2021-04-13 14:04:55.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031231s
+2021-04-13 14:05:01.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32759 32767 1000 1000
+2021-04-13 14:05:04.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019834s
+2021-04-13 14:05:13.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0020917s
+2021-04-13 14:05:22.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0094434s
+2021-04-13 14:05:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:05:31 +00:00
+2021-04-13 14:05:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32759 32767 1000 1000
+2021-04-13 14:05:34.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0082216s
+2021-04-13 14:05:37.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019087s
+2021-04-13 14:05:43.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017662s
+2021-04-13 14:05:52.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022472s
+2021-04-13 14:06:01.190 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 14:06:01.190 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028315s
+2021-04-13 14:06:04.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020899s
+2021-04-13 14:06:13.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017313s
+2021-04-13 14:06:16.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018702s
+2021-04-13 14:06:22.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0056492s
+2021-04-13 14:06:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:06:31 +00:00
+2021-04-13 14:06:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:06:34.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015913s
+2021-04-13 14:06:43.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016872s
+2021-04-13 14:06:52.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023674s
+2021-04-13 14:07:01.187 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:07:04.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0046880s
+2021-04-13 14:07:13.287 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0959774s
+2021-04-13 14:07:19.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017031s
+2021-04-13 14:07:22.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0080393s
+2021-04-13 14:07:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:07:31 +00:00
+2021-04-13 14:07:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32759 32767 1000 1000
+2021-04-13 14:07:34.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015758s
+2021-04-13 14:07:43.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045670s
+2021-04-13 14:07:52.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0047511s
+2021-04-13 14:08:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:08:04.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0042895s
+2021-04-13 14:08:13.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015656s
+2021-04-13 14:08:19.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043886s
+2021-04-13 14:08:22.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021047s
+2021-04-13 14:08:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 0 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:08:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:08:31 +00:00
+2021-04-13 14:08:34.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015603s
+2021-04-13 14:08:43.211 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0182123s
+2021-04-13 14:08:49.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021375s
+2021-04-13 14:08:52.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015553s
+2021-04-13 14:09:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 6 6 1 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:09:04.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019129s
+2021-04-13 14:09:13.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026301s
+2021-04-13 14:09:22.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0022264s
+2021-04-13 14:09:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:09:31 +00:00
+2021-04-13 14:09:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 14:09:34.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038361s
+2021-04-13 14:09:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027066s
+2021-04-13 14:09:52.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022965s
+2021-04-13 14:10:01.206 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:10:04.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015148s
+2021-04-13 14:10:13.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0062765s
+2021-04-13 14:10:22.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020032s
+2021-04-13 14:10:25.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0118126s
+2021-04-13 14:10:31.190 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:10:31 +00:00
+2021-04-13 14:10:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:10:34.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016601s
+2021-04-13 14:10:43.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015416s
+2021-04-13 14:10:52.189 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035660s
+2021-04-13 14:11:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 4M ThreadPool 32758 32767 1000 1000
+2021-04-13 14:11:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050688s
+2021-04-13 14:11:04.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021100s
+2021-04-13 14:11:13.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037687s
+2021-04-13 14:11:22.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026954s
+2021-04-13 14:11:25.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029055s
+2021-04-13 14:11:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:11:31 +00:00
+2021-04-13 14:11:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32758 32767 1000 1000
+2021-04-13 14:11:34.207 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015804s
+2021-04-13 14:11:43.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016065s
+2021-04-13 14:11:52.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027624s
+2021-04-13 14:12:01.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:12:04.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020215s
+2021-04-13 14:12:13.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052021s
+2021-04-13 14:12:22.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016290s
+2021-04-13 14:12:28.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0060128s
+2021-04-13 14:12:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:12:31 +00:00
+2021-04-13 14:12:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 1 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:12:34.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031615s
+2021-04-13 14:12:37.187 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0047740s
+2021-04-13 14:12:43.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017828s
+2021-04-13 14:12:52.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0020003s
+2021-04-13 14:13:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 0 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 14:13:04.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0013632s
+2021-04-13 14:13:13.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0059750s
+2021-04-13 14:13:22.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014496s
+2021-04-13 14:13:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:13:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:13:31 +00:00
+2021-04-13 14:13:31.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0060308s
+2021-04-13 14:13:34.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020973s
+2021-04-13 14:13:43.204 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0094850s
+2021-04-13 14:13:52.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049556s
+2021-04-13 14:14:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:14:04.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025420s
+2021-04-13 14:14:13.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0061517s
+2021-04-13 14:14:22.190 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014862s
+2021-04-13 14:14:28.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017902s
+2021-04-13 14:14:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020349s
+2021-04-13 14:14:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 6 6 1 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:14:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:14:31 +00:00
+2021-04-13 14:14:34.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014238s
+2021-04-13 14:14:43.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016160s
+2021-04-13 14:14:49.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023318s
+2021-04-13 14:14:52.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0013473s
+2021-04-13 14:15:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:15:04.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0048664s
+2021-04-13 14:15:13.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016266s
+2021-04-13 14:15:22.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022027s
+2021-04-13 14:15:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:15:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:15:31 +00:00
+2021-04-13 14:15:34.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0019795s
+2021-04-13 14:15:43.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015388s
+2021-04-13 14:15:52.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030846s
+2021-04-13 14:16:01.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 5 5 1 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:16:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0055822s
+2021-04-13 14:16:04.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021104s
+2021-04-13 14:16:13.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017116s
+2021-04-13 14:16:22.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0059098s
+2021-04-13 14:16:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 14:16:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:16:31 +00:00
+2021-04-13 14:16:34.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016075s
+2021-04-13 14:16:37.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018709s
+2021-04-13 14:16:43.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0053957s
+2021-04-13 14:16:55.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0073185s
+2021-04-13 14:17:01.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 3M ThreadPool 32765 32767 1000 1000
+2021-04-13 14:17:04.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015370s
+2021-04-13 14:17:13.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0018064s
+2021-04-13 14:17:25.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0072173s
+2021-04-13 14:17:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:17:31 +00:00
+2021-04-13 14:17:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:17:34.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0028128s
+2021-04-13 14:17:37.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0053841s
+2021-04-13 14:17:43.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017592s
+2021-04-13 14:17:55.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041756s
+2021-04-13 14:18:01.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 5M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:18:04.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015599s
+2021-04-13 14:18:13.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0018752s
+2021-04-13 14:18:25.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049905s
+2021-04-13 14:18:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:18:31 +00:00
+2021-04-13 14:18:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 14:18:34.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014083s
+2021-04-13 14:18:40.354 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.1576286s
+2021-04-13 14:18:43.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0057116s
+2021-04-13 14:18:55.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019975s
+2021-04-13 14:19:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 14:19:04.215 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0218270s
+2021-04-13 14:19:16.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0071584s
+2021-04-13 14:19:25.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0062155s
+2021-04-13 14:19:31.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 3M ThreadPool 32762 32767 1000 1000
+2021-04-13 14:19:31.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:19:31 +00:00
+2021-04-13 14:19:34.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0013723s
+2021-04-13 14:19:43.188 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0059934s
+2021-04-13 14:19:46.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014767s
+2021-04-13 14:19:55.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049838s
+2021-04-13 14:20:01.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:20:04.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017877s
+2021-04-13 14:20:16.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017690s
+2021-04-13 14:20:25.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030621s
+2021-04-13 14:20:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:20:31 +00:00
+2021-04-13 14:20:31.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 3M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:20:34.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016932s
+2021-04-13 14:20:43.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014587s
+2021-04-13 14:20:46.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015522s
+2021-04-13 14:20:55.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032811s
+2021-04-13 14:21:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 0 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:21:01.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0079927s
+2021-04-13 14:21:04.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015606s
+2021-04-13 14:21:10.209 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0133095s
+2021-04-13 14:21:16.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014601s
+2021-04-13 14:21:25.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032490s
+2021-04-13 14:21:31.216 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:21:31.216 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:21:31 +00:00
+2021-04-13 14:21:34.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015226s
+2021-04-13 14:21:46.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0018984s
+2021-04-13 14:21:55.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041640s
+2021-04-13 14:22:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:22:04.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016555s
+2021-04-13 14:22:16.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035589s
+2021-04-13 14:22:25.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0097586s
+2021-04-13 14:22:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:22:31 +00:00
+2021-04-13 14:22:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:22:34.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015434s
+2021-04-13 14:22:46.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022151s
+2021-04-13 14:22:49.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015201s
+2021-04-13 14:22:55.207 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0111857s
+2021-04-13 14:23:01.289 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32765 32767 1000 1000
+2021-04-13 14:23:04.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017271s
+2021-04-13 14:23:16.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0056714s
+2021-04-13 14:23:25.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043974s
+2021-04-13 14:23:31.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32762 32767 1000 1000
+2021-04-13 14:23:31.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:23:31 +00:00
+2021-04-13 14:23:34.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036016s
+2021-04-13 14:23:46.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023004s
+2021-04-13 14:23:49.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019157s
+2021-04-13 14:23:55.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041562s
+2021-04-13 14:24:01.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 1 4M ThreadPool 32765 32767 1000 1000
+2021-04-13 14:24:04.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015638s
+2021-04-13 14:24:16.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050741s
+2021-04-13 14:24:25.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041513s
+2021-04-13 14:24:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:24:31 +00:00
+2021-04-13 14:24:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32759 32767 1000 1000
+2021-04-13 14:24:34.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0019157s
+2021-04-13 14:24:46.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017606s
+2021-04-13 14:24:52.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017570s
+2021-04-13 14:24:55.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038375s
+2021-04-13 14:25:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32761 32767 1000 1000
+2021-04-13 14:25:04.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021164s
+2021-04-13 14:25:16.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015141s
+2021-04-13 14:25:25.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0083810s
+2021-04-13 14:25:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:25:31 +00:00
+2021-04-13 14:25:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 5M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:25:34.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014859s
+2021-04-13 14:25:46.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015871s
+2021-04-13 14:25:55.203 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0111666s
+2021-04-13 14:26:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 1 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:26:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028357s
+2021-04-13 14:26:04.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052592s
+2021-04-13 14:26:16.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0016171s
+2021-04-13 14:26:25.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0053714s
+2021-04-13 14:26:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 14:26:31.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:26:31 +00:00
+2021-04-13 14:26:34.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017704s
+2021-04-13 14:26:46.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017024s
+2021-04-13 14:26:55.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0021023s
+2021-04-13 14:27:01.190 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 3 3 0 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:27:04.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0082671s
+2021-04-13 14:27:16.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043273s
+2021-04-13 14:27:25.249 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041019s
+2021-04-13 14:27:31.221 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:27:31 +00:00
+2021-04-13 14:27:31.223 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 14:27:34.309 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.1185082s
+2021-04-13 14:27:46.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015338s
+2021-04-13 14:27:55.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049870s
+2021-04-13 14:27:58.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0017066s
+2021-04-13 14:28:01.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 5 5 1 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 14:28:04.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0012401s
+2021-04-13 14:28:16.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014474s
+2021-04-13 14:28:25.202 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0081235s
+2021-04-13 14:28:31.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:28:31 +00:00
+2021-04-13 14:28:31.199 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:28:34.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0072025s
+2021-04-13 14:28:46.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0013699s
+2021-04-13 14:28:55.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0022214s
+2021-04-13 14:29:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039429s
+2021-04-13 14:29:01.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:29:04.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049232s
+2021-04-13 14:29:16.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015624s
+2021-04-13 14:29:25.207 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0112502s
+2021-04-13 14:29:31.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:29:31 +00:00
+2021-04-13 14:29:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 0 4M ThreadPool 32758 32767 1000 1000
+2021-04-13 14:29:34.195 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038114s
+2021-04-13 14:29:46.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0015310s
+2021-04-13 14:29:55.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0061690s
+2021-04-13 14:30:01.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029284s
+2021-04-13 14:30:01.205 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.03125 GenCollectCount 3 3 1 4M ThreadPool 32760 32767 1000 1000
+2021-04-13 14:30:04.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034256s
+2021-04-13 14:30:16.198 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040191s
+2021-04-13 14:30:25.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045607s
+2021-04-13 14:30:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 0 4M ThreadPool 32763 32767 1000 1000
+2021-04-13 14:30:31.191 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:30:31 +00:00
+2021-04-13 14:30:34.205 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0121173s
+2021-04-13 14:30:46.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0020814s
+2021-04-13 14:30:55.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0088475s
+2021-04-13 14:31:01.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032733s
+2021-04-13 14:31:01.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 4M ThreadPool 32764 32767 1000 1000
+2021-04-13 14:31:04.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0017987s
+2021-04-13 14:31:16.193 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0014489s
+2021-04-13 14:31:25.190 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0051027s
+2021-04-13 14:31:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Ping server @2021/4/13 6:31:31 +00:00
+2021-04-13 14:31:31.196 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 2 2 1 3M ThreadPool 32760 32767 1000 1000
+2021-04-13 14:31:34.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037758s
+2021-04-13 14:31:46.201 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0098136s
+2021-04-13 14:31:55.197 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0021477s
+2021-04-13 14:32:01.192 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 0 4M ThreadPool 32765 32767 1000 1000
+2021-04-13 14:32:04.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0013745s
+2021-04-13 14:32:07.194 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0012426s
+2021-04-13 14:32:16.200 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031626s
+2021-04-13 14:32:22.998 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2021-04-13 14:32:22.998 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2021-04-13 14:32:22.998 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2021-04-13 14:32:22.998 +08:00 [VueCent.User.Service] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2021-04-13 14:32:22.998 +08:00 [VueCent.User.Service] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2021-04-13 14:32:22.998 +08:00 [VueCent.User.Service] [Information] SkyApm.Transport.Grpc.ConnectService : Stopped instrument service ConnectService.
+2021-04-13 14:32:22.998 +08:00 [VueCent.User.Service] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.

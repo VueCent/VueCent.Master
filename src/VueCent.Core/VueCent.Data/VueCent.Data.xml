@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Data</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Data.BaseMessage">
+            <summary>
+            Class BaseMessage.
+            </summary>
+        </member>
+        <member name="P:VueCent.Data.BaseMessage.S">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:VueCent.Data.BaseMessage" /> is succeed.
+            </summary>
+            <value><c>true</c> if succeed; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:VueCent.Data.BaseMessage.Succeed">
+            <summary>
+            Gets a value indicating whether this <see cref="T:VueCent.Data.BaseMessage" /> is succeed.
+            </summary>
+            <value><c>true</c> if succeed; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:VueCent.Data.BaseMessage.C">
+            <summary>
+            Gets or sets the code.
+            </summary>
+            <value>The code.</value>
+        </member>
+        <member name="P:VueCent.Data.BaseMessage.Code">
+            <summary>
+            Gets the code.
+            </summary>
+            <value>The code.</value>
+        </member>
+        <member name="P:VueCent.Data.BaseMessage.M">
+            <summary>
+            Gets or sets the message.
+            </summary>
+            <value>The message.</value>
+        </member>
+        <member name="P:VueCent.Data.BaseMessage.Message">
+            <summary>
+            Gets the message.
+            </summary>
+            <value>The message.</value>
+        </member>
+        <member name="M:VueCent.Data.BaseMessage.Error(System.Int32,System.String)">
+            <summary>
+            Errors the specified code.
+            </summary>
+            <param name="code">The code.</param>
+            <param name="message">The message.</param>
+            <returns>BaseMessage.</returns>
+        </member>
+        <member name="M:VueCent.Data.BaseMessage.Succee(System.String)">
+            <summary>
+            Succees the specified message.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>BaseMessage.</returns>
+        </member>
+        <member name="T:VueCent.Data.Database">
+            <summary>
+            Class Database. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:VueCent.Data.Database.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:VueCent.Data.Database.Tables">
+            <summary>
+            Gets or sets the tables.
+            </summary>
+            <value>The tables.</value>
+        </member>
+        <member name="P:VueCent.Data.Database.Views">
+            <summary>
+            Gets or sets the views.
+            </summary>
+            <value>The views.</value>
+        </member>
+        <member name="T:VueCent.Data.Field">
+            <summary>
+            Class Field. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:VueCent.Data.Field.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.DisplayName">
+            <summary>
+            Gets the display name.
+            </summary>
+            <value>The display name.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.Code">
+            <summary>
+            Gets or sets the code.
+            </summary>
+            <value>The code.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.Type">
+            <summary>
+            Gets the type.
+            </summary>
+            <value>The type.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.DataType">
+            <summary>
+            Gets or sets the type of the data.
+            </summary>
+            <value>The type of the data.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.ColumnDataType">
+            <summary>
+            Gets the type of the column data.
+            </summary>
+            <value>The type of the column data.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.MaxLength">
+            <summary>
+            Gets or sets the maximum length.
+            </summary>
+            <value>The maximum length.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.NullAble">
+            <summary>
+            Gets or sets a value indicating whether [null able].
+            </summary>
+            <value><c>true</c> if [null able]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.Unique">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:VueCent.Data.Field" /> is unique.
+            </summary>
+            <value><c>true</c> if unique; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.Index">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:VueCent.Data.Field" /> is index.
+            </summary>
+            <value><c>true</c> if index; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.Default">
+            <summary>
+            Gets or sets the default.
+            </summary>
+            <value>The default.</value>
+        </member>
+        <member name="P:VueCent.Data.Field.Remark">
+            <summary>
+            Gets or sets the remark.
+            </summary>
+            <value>The remark.</value>
+        </member>
+        <member name="T:VueCent.Data.KeyValue`1">
+            <summary>
+            Class KeyValue. This class cannot be inherited.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:VueCent.Data.KeyValue`1.Key">
+            <summary>
+            Gets or sets the key.
+            </summary>
+            <value>The key.</value>
+        </member>
+        <member name="P:VueCent.Data.KeyValue`1.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>The value.</value>
+        </member>
+        <member name="T:VueCent.Data.ModelMessage`1">
+            <summary>
+            Class ModelMessage. This class cannot be inherited.
+            Implements the <see cref="T:VueCent.Data.BaseMessage" />
+            </summary>
+            <typeparam name="T"></typeparam>
+            <seealso cref="T:VueCent.Data.BaseMessage" />
+        </member>
+        <member name="P:VueCent.Data.ModelMessage`1.Data">
+            <summary>
+            Gets or sets the data.
+            </summary>
+            <value>The data.</value>
+        </member>
+        <member name="M:VueCent.Data.ModelMessage`1.Error(System.Int32,System.String)">
+            <summary>
+            Errors the specified code.
+            </summary>
+            <param name="code">The code.</param>
+            <param name="message">The message.</param>
+            <returns>ModelMessage&lt;T&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Data.ModelMessage`1.Succee(System.String)">
+            <summary>
+            Succees the specified message.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>ModelMessage&lt;T&gt;.</returns>
+        </member>
+        <member name="T:VueCent.Data.PageMessage`1">
+            <summary>
+            Class PageMessage. This class cannot be inherited.
+            Implements the <see cref="T:VueCent.Data.BaseMessage" />
+            </summary>
+            <typeparam name="T"></typeparam>
+            <seealso cref="T:VueCent.Data.BaseMessage" />
+        </member>
+        <member name="P:VueCent.Data.PageMessage`1.Rows">
+            <summary>
+            Gets or sets the rows.
+            </summary>
+            <value>The rows.</value>
+        </member>
+        <member name="P:VueCent.Data.PageMessage`1.Offset">
+            <summary>
+            Gets or sets the offset.
+            </summary>
+            <value>The offset.</value>
+        </member>
+        <member name="P:VueCent.Data.PageMessage`1.Limit">
+            <summary>
+            Gets or sets the limit.
+            </summary>
+            <value>The limit.</value>
+        </member>
+        <member name="P:VueCent.Data.PageMessage`1.Total">
+            <summary>
+            Gets or sets the total.
+            </summary>
+            <value>The total.</value>
+        </member>
+        <member name="M:VueCent.Data.PageMessage`1.Error(System.Int32,System.String)">
+            <summary>
+            Errors the specified code.
+            </summary>
+            <param name="code">The code.</param>
+            <param name="message">The message.</param>
+            <returns>PageMessage&lt;T&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Data.PageMessage`1.Succee(System.String)">
+            <summary>
+            Succees the specified message.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>PageMessage&lt;T&gt;.</returns>
+        </member>
+        <member name="T:VueCent.Data.Table">
+            <summary>
+            Class Table. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:VueCent.Data.Table.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:VueCent.Data.Table.DispalyName">
+            <summary>
+            Gets the name of the dispaly.
+            </summary>
+            <value>The name of the dispaly.</value>
+        </member>
+        <member name="P:VueCent.Data.Table.Code">
+            <summary>
+            Gets or sets the code.
+            </summary>
+            <value>The code.</value>
+        </member>
+        <member name="P:VueCent.Data.Table.Remark">
+            <summary>
+            Gets or sets the remark.
+            </summary>
+            <value>The remark.</value>
+        </member>
+        <member name="P:VueCent.Data.Table.Fields">
+            <summary>
+            Gets or sets the fields.
+            </summary>
+            <value>The fields.</value>
+        </member>
+        <member name="T:VueCent.Data.View">
+            <summary>
+            Class View. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:VueCent.Data.View.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:VueCent.Data.View.Code">
+            <summary>
+            Gets or sets the code.
+            </summary>
+            <value>The code.</value>
+        </member>
+        <member name="P:VueCent.Data.View.Remark">
+            <summary>
+            Gets or sets the remark.
+            </summary>
+            <value>The remark.</value>
+        </member>
+        <member name="P:VueCent.Data.View.Fields">
+            <summary>
+            Gets or sets the fields.
+            </summary>
+            <value>The fields.</value>
+        </member>
+    </members>
+</doc>

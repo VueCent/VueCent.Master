@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.OAth.Service</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.OAth.Controllers.HealthController">
+            <summary>
+            Class HealthController.
+            Implements the <see cref="T:Microsoft.AspNetCore.Mvc.Controller" />
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.Controller" />
+        </member>
+        <member name="M:VueCent.OAth.Controllers.HealthController.Check">
+            <summary>
+            Checks this instance.
+            </summary>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="T:VueCent.OAth.Controllers.HomeController">
+            <summary>
+            Class HomeController.
+            Implements the <see cref="T:Microsoft.AspNetCore.Mvc.Controller" />
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.Controller" />
+        </member>
+        <member name="M:VueCent.OAth.Controllers.HomeController.Index">
+            <summary>
+            Indexes this instance.
+            </summary>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="M:VueCent.OAth.Controllers.HomeController.Error">
+            <summary>
+            Errors this instance.
+            </summary>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="T:VueCent.OAth.Service.Identity">
+            <summary>
+            Class Identity.
+            </summary>
+        </member>
+        <member name="P:VueCent.OAth.Service.Identity.ApiScopes">
+            <summary>
+            Gets the API scopes.
+            </summary>
+            <value>The API scopes.</value>
+        </member>
+        <member name="P:VueCent.OAth.Service.Identity.Clients">
+            <summary>
+            Gets the clients.
+            </summary>
+            <value>The clients.</value>
+        </member>
+        <member name="T:VueCent.OAth.Service.Program">
+            <summary>
+            Class Program.
+            </summary>
+        </member>
+        <member name="M:VueCent.OAth.Service.Program.Main(System.String[])">
+            <summary>
+            Defines the entry point of the application.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:VueCent.OAth.Service.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Creates the host builder.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns>IHostBuilder.</returns>
+        </member>
+        <member name="T:VueCent.OAth.Service.Startup">
+            <summary>
+            Class Startup.
+            </summary>
+        </member>
+        <member name="P:VueCent.OAth.Service.Startup.configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+            <value>The configuration.</value>
+        </member>
+        <member name="M:VueCent.OAth.Service.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VueCent.OAth.Service.Startup" /> class.
+            </summary>
+            <param name="configuration">The configuration.</param>
+        </member>
+        <member name="M:VueCent.OAth.Service.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures the services.
+            </summary>
+            <param name="services">The services.</param>
+        </member>
+        <member name="M:VueCent.OAth.Service.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configures the specified application.
+            </summary>
+            <param name="app">The application.</param>
+            <param name="env">The env.</param>
+        </member>
+    </members>
+</doc>

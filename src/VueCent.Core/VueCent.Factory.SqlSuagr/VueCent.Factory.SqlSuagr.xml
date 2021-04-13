@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Factory.SqlSuagr</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Factory.SqlSuagr.BaseTableBLL`1">
+            <summary>
+            Class BaseTableBLL.
+            Implements the <see cref="T:VueCent.Factory.IBaseTableBLL`1" />
+            Implements the <see cref="T:VueCent.Factory.IBaseTableMonitor`1" />
+            </summary>
+            <typeparam name="T"></typeparam>
+            <seealso cref="T:VueCent.Factory.IBaseTableBLL`1" />
+            <seealso cref="T:VueCent.Factory.IBaseTableMonitor`1" />
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.BaseTableBLL`1.DAL">
+            <summary>
+            Gets the dal.
+            </summary>
+            <value>The dal.</value>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.AfterAdd(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Afters the add.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.BeforeAdd(System.Collections.Generic.IEnumerable{`0},VueCent.Data.BaseMessage)">
+            <summary>
+            Befores the add.
+            </summary>
+            <param name="models">The models.</param>
+            <param name="msg">The MSG.</param>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Add(`0)">
+            <summary>
+            Adds the specified model.
+            </summary>
+            <param name="model">The model.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Add(System.String)">
+            <summary>
+            Adds the specified json.
+            </summary>
+            <param name="json">The json.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Add(System.Xml.XmlDocument)">
+            <summary>
+            Adds the specified XML.
+            </summary>
+            <param name="xml">The XML.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Add(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds the specified models.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.AddReturnEntity(`0)">
+            <summary>
+            Adds the return entity.
+            </summary>
+            <param name="model">The model.</param>
+            <returns>Task&lt;T&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.AddReturnId(`0)">
+            <summary>
+            Adds the return identifier.
+            </summary>
+            <param name="model">The model.</param>
+            <returns>Task&lt;System.Int32&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.AfterUpdate(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Afters the update.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.BeforeUpdate(System.Collections.Generic.IEnumerable{`0},VueCent.Data.BaseMessage)">
+            <summary>
+            Befores the update.
+            </summary>
+            <param name="models">The models.</param>
+            <param name="msg">The MSG.</param>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Update(`0)">
+            <summary>
+            Updates the specified model.
+            </summary>
+            <param name="model">The model.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Update(System.String)">
+            <summary>
+            Updates the specified json.
+            </summary>
+            <param name="json">The json.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Update(System.Xml.XmlDocument)">
+            <summary>
+            Updates the specified XML.
+            </summary>
+            <param name="xml">The XML.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Update(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Updates the specified models.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.AfterDelete(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Afters the delete.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.BeforeDelete(System.Collections.Generic.IEnumerable{`0},VueCent.Data.BaseMessage)">
+            <summary>
+            Befores the delete.
+            </summary>
+            <param name="models">The models.</param>
+            <param name="msg">The MSG.</param>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Delete(System.Int32)">
+            <summary>
+            Deletes the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Delete(`0)">
+            <summary>
+            Deletes the specified model.
+            </summary>
+            <param name="model">The model.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Delete(System.String)">
+            <summary>
+            Deletes the specified json.
+            </summary>
+            <param name="json">The json.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Delete(System.Xml.XmlDocument)">
+            <summary>
+            Deletes the specified XML.
+            </summary>
+            <param name="xml">The XML.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Delete(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Deletes the specified models.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Get">
+            <summary>
+            Gets this instance.
+            </summary>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Get(System.Int32)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>Task&lt;T&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Gets the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.GetAsc(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Gets the asc.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.GetDesc(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Gets the desc.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.First(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Firsts the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <returns>Task&lt;T&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.FirstAsc(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Firsts the asc.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;T&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.FirstDesc(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Firsts the desc.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;T&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.GetJson">
+            <summary>
+            Gets the json.
+            </summary>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.GetJson(System.Int32)">
+            <summary>
+            Gets the json.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.GetJson(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Gets the json.
+            </summary>
+            <param name="where">The where.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.GetJsonAsc(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Gets the json asc.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.GetJsonDesc(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Gets the json desc.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Page">
+            <summary>
+            Pages this instance.
+            </summary>
+            <returns>Task&lt;PageMessage&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Page(System.Int32,System.Int32)">
+            <summary>
+            Pages the specified offset.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <returns>Task&lt;PageMessage&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.Page(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Pages the specified offset.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <param name="where">The where.</param>
+            <returns>Task&lt;PageMessage&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.PageAsc(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Pages the asc.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;PageMessage&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.PageDesc(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Pages the desc.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;PageMessage&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.PageJson">
+            <summary>
+            Pages the json.
+            </summary>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.PageJson(System.Int32,System.Int32)">
+            <summary>
+            Pages the json.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.PageJson(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Pages the json.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <param name="where">The where.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.PageJsonAsc(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Pages the json asc.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableBLL`1.PageJsonDesc(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Pages the json desc.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="T:VueCent.Factory.SqlSuagr.BaseTableDAL`1">
+            <summary>
+            Class BaseTableDAL.
+            Implements the <see cref="T:VueCent.Factory.IBaseTableDAL`1" />
+            </summary>
+            <typeparam name="T"></typeparam>
+            <seealso cref="T:VueCent.Factory.IBaseTableDAL`1" />
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.BaseTableDAL`1.Client">
+            <summary>
+            Gets the client.
+            </summary>
+            <value>The client.</value>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:VueCent.Factory.SqlSuagr.BaseTableDAL`1" /> class.
+            </summary>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.Add(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds the specified models.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.AddReturnEntity(`0)">
+            <summary>
+            Adds the return entity.
+            </summary>
+            <param name="model">The model.</param>
+            <returns>Task&lt;T&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.AddReturnId(`0)">
+            <summary>
+            Adds the return identifier.
+            </summary>
+            <param name="model">The model.</param>
+            <returns>Task&lt;System.Int32&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.Update(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Updates the specified models.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.Delete(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Deletes the specified models.
+            </summary>
+            <param name="models">The models.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},VueCent.Factory.BaseOrderByType)">
+            <summary>
+            Gets the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <param name="isAsc">The is asc.</param>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Counts the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <returns>Task&lt;System.Int32&gt;.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.BaseTableDAL`1.Page(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},VueCent.Factory.BaseOrderByType)">
+            <summary>
+            Pages the specified offset.
+            </summary>
+            <param name="offset">The offset.</param>
+            <param name="limit">The limit.</param>
+            <param name="where">The where.</param>
+            <param name="order">The order.</param>
+            <param name="isAsc">The is asc.</param>
+            <returns>Task&lt;IEnumerable&lt;T&gt;&gt;.</returns>
+        </member>
+        <member name="T:VueCent.Factory.SqlSuagr.BaseTableModel`1">
+            <summary>
+            Class BaseTableModel.
+            Implements the <see cref="T:VueCent.Factory.BaseTableModel`1" />
+            </summary>
+            <typeparam name="T"></typeparam>
+            <seealso cref="T:VueCent.Factory.BaseTableModel`1" />
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.BaseTableModel`1.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>The identifier.</value>
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.BaseTableModel`1.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.BaseTableModel`1.Code">
+            <summary>
+            Gets or sets the code.
+            </summary>
+            <value>The code.</value>
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.BaseTableModel`1.Remark1">
+            <summary>
+            Gets or sets the remark1.
+            </summary>
+            <value>The remark1.</value>
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.BaseTableModel`1.Remark2">
+            <summary>
+            Gets or sets the remark2.
+            </summary>
+            <value>The remark2.</value>
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.BaseTableModel`1.Remark3">
+            <summary>
+            Gets or sets the remark3.
+            </summary>
+            <value>The remark3.</value>
+        </member>
+        <member name="T:VueCent.Factory.SqlSuagr.Config">
+            <summary>
+            Class Config.
+            </summary>
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.Config.DbType">
+            <summary>
+            Gets or sets the type of the database.
+            </summary>
+            <value>The type of the database.</value>
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.Config.Master">
+            <summary>
+            Gets or sets the master.
+            </summary>
+            <value>The master.</value>
+        </member>
+        <member name="P:VueCent.Factory.SqlSuagr.Config.Slave">
+            <summary>
+            Gets or sets the slave.
+            </summary>
+            <value>The slave.</value>
+        </member>
+        <member name="T:VueCent.Factory.SqlSuagr.SqlSuagrExtensions">
+            <summary>
+            Class SqlSuagrExtensions.
+            </summary>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.SqlSuagrExtensions.AddFactory(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds the factory.
+            </summary>
+            <param name="services">The services.</param>
+            <param name="configuration">The configuration.</param>
+            <returns>IServiceCollection.</returns>
+        </member>
+        <member name="M:VueCent.Factory.SqlSuagr.SqlSuagrExtensions.GetDbType(System.String)">
+            <summary>
+            Gets the type of the database.
+            </summary>
+            <param name="type">The type.</param>
+            <returns>SqlSugar.DbType.</returns>
+        </member>
+    </members>
+</doc>

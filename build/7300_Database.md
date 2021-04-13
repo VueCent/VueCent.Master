@@ -1,0 +1,1 @@
+dotnet watch run --urls="http://192.168.7.39:7300" --port=7300 --ip="192.168.7.39"

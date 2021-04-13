@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UserSecretsId>9d52acbc-5572-455a-8ddc-6d33fbc9ac21</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>VueCent.OAth.Service.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="IdentityServer4" Version="4.1.1" />
+		<PackageReference Include="Com.Ctrip.Framework.Apollo.Configuration" Version="2.4.1" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+		<PackageReference Include="SkyAPM.Agent.AspNetCore" Version="1.2.0" />
+		<PackageReference Include="VueCent.Log.Exceptionless" Version="1.2.1" />
+		<PackageReference Include="VueCent.Register.Consul" Version="1.2.1" />
+	</ItemGroup>
+
+</Project>

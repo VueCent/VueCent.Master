@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "4f42d381-9440-448c-b8e0-9310d9c81fdc",
+		"name": "VueCent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Oath",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "client",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "username",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "scope",
+							"value": "api",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:7100/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7100",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "gateway",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNBMTAzODgwMjZBM0Q4QjNFMUUxMDcxNkFENzc0NEYxIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTU0MzI3NzAsImV4cCI6MTYxNTQzNjM3MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MTAwIiwiY2xpZW50X2lkIjoiY2xpZW50IiwianRpIjoiOTc0QjFBMEQ3RkJEOUQ4MjUwMDJDQjMxOTc0OEE1MjkiLCJpYXQiOjE2MTU0MzI3NzAsInNjb3BlIjpbImFwaSJdfQ.UDe8fupb2k0LrKP8sut2kPmrlHK1-JBoYQPe5Z2UTG0a4KMUhSwkwdA6RoG0ozwUbR7GaKCp19EUaHiQpYf_iNjPUiQLy5lqSAo96cETFxTk7ys0IT4_RRgx7PZicvZBxyxUh5PM-BfOqRQCcLgcq_siDF8nyF3SbRLk5KUPvsXER_otk_07g9PnP_oY1-SHBAaQ_VK3IoNQkKZd_fswq-ILfrM0QY4ICeoYlpKo1dcurbgogvhLycfxMew47YSfsNSPHQECJ4czLdpCSrs8GjQL0z-rg6YQ90J6-yRjRLWxzYHd353C5ISz_1z5KGYB3ZV8qPyyfAYmhiz8u1BYew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/mvc/home/error",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"mvc",
+						"home",
+						"error"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

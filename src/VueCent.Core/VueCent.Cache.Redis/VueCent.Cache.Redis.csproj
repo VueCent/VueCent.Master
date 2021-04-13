@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<VersionPrefix>1.2.1</VersionPrefix>
+		<Authors>VueCent</Authors>
+		<Description>VueCent</Description>
+		<PackageProjectUrl>https://github.com/VueCent/VueCent.Master</PackageProjectUrl>
+		<PackageReleaseNotes>VueCent</PackageReleaseNotes>
+		<PackageTags>VueCent</PackageTags>
+		<RepositoryType></RepositoryType>
+		<RepositoryUrl></RepositoryUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Copyright>VueCent © All Right</Copyright>
+		<PackageIcon></PackageIcon>
+		<NeutralLanguage>zh</NeutralLanguage>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>VueCent.Cache.Redis.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StackExchange.Redis" Version="2.2.4" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\VueCent.Cache\VueCent.Cache.csproj" />
+		<ProjectReference Include="..\VueCent.Core\VueCent.Core.csproj" />
+	</ItemGroup>
+
+</Project>

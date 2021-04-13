@@ -1,0 +1,77 @@
+﻿syntax = "proto3";
+
+import "google/api/annotations.proto";
+
+option csharp_namespace = "VueCent.User.DTO";
+
+service Users{
+	rpc GetUser (UserRequest) returns (UserReply) {
+		option (google.api.http) = {
+			get: "/api/users/{UserName}"
+		};
+	}
+	rpc PostUser (UserRequest) returns (UserReply) {
+		option (google.api.http) = {
+			post: "/api/users/PostUser"
+			body: "*"
+		};
+	}
+	rpc GetBaseMessage (UserRequest) returns (BaseMessage) {
+		option (google.api.http) = {
+			get: "/api/users/BaseMessage"
+		};
+	}
+	rpc GetModeMessage (UserRequest) returns (ModeMessage) {
+		option (google.api.http) = {
+			get: "/api/users/ModeMessage"
+		};
+	}
+	rpc GetPageMessage (UserRequest) returns (PageMessage) {
+		option (google.api.http) = {
+			get: "/api/users/PageMessage"
+		};
+	}
+	rpc GetKeyValue (UserRequest) returns (KeyValue) {
+		option (google.api.http) = {
+			get: "/api/users/KeyValue"
+		};
+	}
+}
+
+message UserRequest{
+	string UserName = 1;
+	string Password = 2;
+}
+
+message UserReply{
+	int32 Id = 1;
+	string UserName = 2;
+}
+
+message BaseMessage{
+	bool Succeed = 1;
+	string Code = 2;
+	string Message = 3;
+}
+
+message ModeMessage{
+	bool Succeed = 1;
+	string Code = 2;
+	string Message = 3;
+	UserReply Data = 4;
+}
+
+message PageMessage{
+	bool Succeed = 1;
+	string Code = 2;
+	string Message = 3;
+	int32 Total = 4;
+    repeated UserReply  Rows = 5;
+    int32 Limit = 6;
+    int32 Offset = 7;
+}
+
+message KeyValue{
+	string Key = 1;
+	repeated UserReply Value = 3;
+}

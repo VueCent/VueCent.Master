@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Log.Exceptionless</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Log.Exceptionless.Config">
+            <summary>
+            Class Config.
+            </summary>
+        </member>
+        <member name="P:VueCent.Log.Exceptionless.Config.Url">
+            <summary>
+            Gets or sets the URL.
+            </summary>
+            <value>The URL.</value>
+        </member>
+        <member name="P:VueCent.Log.Exceptionless.Config.Key">
+            <summary>
+            Gets or sets the key.
+            </summary>
+            <value>The key.</value>
+        </member>
+        <member name="T:VueCent.Log.Exceptionless.ExceptionFilter">
+            <summary>
+            Class ExceptionFilter.
+            Implements the <see cref="T:Microsoft.AspNetCore.Mvc.Filters.IAsyncExceptionFilter" />
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.Filters.IAsyncExceptionFilter" />
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionFilter.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            Called when [exception asynchronous].
+            </summary>
+            <param name="context">The context.</param>
+            <returns>Task.</returns>
+        </member>
+        <member name="T:VueCent.Log.Exceptionless.ExceptionlessExtensions">
+            <summary>
+            Class ExceptionlessExtensions.
+            </summary>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessExtensions.AddLog(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds the log.
+            </summary>
+            <param name="services">The services.</param>
+            <param name="configuration">The configuration.</param>
+            <returns>IServiceCollection.</returns>
+        </member>
+        <member name="T:VueCent.Log.Exceptionless.ExceptionlessHelper">
+            <summary>
+            Class ExceptionlessHelper.
+            Implements the <see cref="T:VueCent.Log.ILog" />
+            </summary>
+            <seealso cref="T:VueCent.Log.ILog" />
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:VueCent.Log.Exceptionless.ExceptionlessHelper"/> class.
+            </summary>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.Log``1(``0)">
+            <summary>
+            Logs the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.Log``1(``0,VueCent.Log.Level)">
+            <summary>
+            Logs the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+            <param name="level">The level.</param>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.Debug``1(``0)">
+            <summary>
+            Debugs the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.Error``1(``0)">
+            <summary>
+            Errors the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.Info``1(``0)">
+            <summary>
+            Informations the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.Trace``1(``0)">
+            <summary>
+            Traces the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.Warn``1(``0)">
+            <summary>
+            Warns the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.Exceptionless.ExceptionlessHelper.Fatal``1(``0)">
+            <summary>
+            Fatals the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+    </members>
+</doc>

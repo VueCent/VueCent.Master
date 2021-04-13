@@ -1,0 +1,13 @@
+Exceptionless:Url = http://172.17.9.74:8200/
+Exceptionless:Key = NFDEbJspnPME0owf8xruTcAUY9M0mORbEFjPpmS9
+Service:Name = VueCent.User.Service
+Service:Host = users
+Service:Interval = 10
+Service:Timeout = 30
+Service:DeregisterCriticalServiceAfter = 10
+Consul = http://172.17.9.74:8500/
+Redis:IP = 172.17.9.74
+Redis:Point = 6379
+Database:Type = MySql
+Database:Master = Data Source=172.17.9.74;Persist Security Info=True;Initial Catalog=User;User ID=root;Password=0
+Database:Slaves = Data Source=172.17.9.74;Persist Security Info=True;Initial Catalog=User;User ID=root;Password=0

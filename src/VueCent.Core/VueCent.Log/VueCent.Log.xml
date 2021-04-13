@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Log</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Log.ILog">
+            <summary>
+            Interface ILog
+            </summary>
+        </member>
+        <member name="M:VueCent.Log.ILog.Log``1(``0)">
+            <summary>
+            Logs the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.ILog.Log``1(``0,VueCent.Log.Level)">
+            <summary>
+            Logs the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+            <param name="level">The level.</param>
+        </member>
+        <member name="M:VueCent.Log.ILog.Trace``1(``0)">
+            <summary>
+            Traces the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.ILog.Info``1(``0)">
+            <summary>
+            Informations the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.ILog.Debug``1(``0)">
+            <summary>
+            Debugs the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.ILog.Warn``1(``0)">
+            <summary>
+            Warns the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.ILog.Error``1(``0)">
+            <summary>
+            Errors the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="M:VueCent.Log.ILog.Fatal``1(``0)">
+            <summary>
+            Fatals the specified t.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">The t.</param>
+        </member>
+        <member name="T:VueCent.Log.Level">
+            <summary>
+            Enum Level
+            </summary>
+        </member>
+        <member name="F:VueCent.Log.Level.Trace">
+            <summary>
+            The trace
+            </summary>
+        </member>
+        <member name="F:VueCent.Log.Level.Info">
+            <summary>
+            The information
+            </summary>
+        </member>
+        <member name="F:VueCent.Log.Level.Warn">
+            <summary>
+            The warn
+            </summary>
+        </member>
+        <member name="F:VueCent.Log.Level.Debug">
+            <summary>
+            The debug
+            </summary>
+        </member>
+        <member name="F:VueCent.Log.Level.Error">
+            <summary>
+            The error
+            </summary>
+        </member>
+        <member name="F:VueCent.Log.Level.Fatal">
+            <summary>
+            The fatal
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,2 @@
+Exceptionless:Url = http://172.17.9.74:8200/
+Exceptionless:Key = NFDEbJspnPME0owf8xruTcAUY9M0mORbEFjPpmS9

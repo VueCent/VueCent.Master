@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.PinYin</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.PinYin.PinYinCode">
+            <summary>
+            Class PinYinCode. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="F:VueCent.PinYin.PinYinCode.Codes">
+            <summary>
+            The codes
+            </summary>
+        </member>
+        <member name="T:VueCent.PinYin.PinYinHash">
+            <summary>
+            Class PinYinHash. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="F:VueCent.PinYin.PinYinHash.Hashes">
+            <summary>
+            The hashes
+            </summary>
+        </member>
+        <member name="T:VueCent.PinYin.PinYinHelper">
+            <summary>
+            Class PinYinHelper.
+            </summary>
+        </member>
+        <member name="M:VueCent.PinYin.PinYinHelper.GetInitials(System.String)">
+            <summary>
+            Gets the initials.
+            </summary>
+            <param name="str">The string.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.PinYin.PinYinHelper.GetPinYin(System.String)">
+            <summary>
+            Gets the pin yin.
+            </summary>
+            <param name="str">The string.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.PinYin.PinYinHelper.GetChineseText(System.String)">
+            <summary>
+            Gets the chinese text.
+            </summary>
+            <param name="pinyin">The pinyin.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.PinYin.PinYinHelper.GetPinYin(System.Char)">
+            <summary>
+            Gets the pin yin.
+            </summary>
+            <param name="ch">The ch.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.PinYin.PinYinHelper.GetHashIndex(System.Char)">
+            <summary>
+            Gets the index of the hash.
+            </summary>
+            <param name="ch">The ch.</param>
+            <returns>System.Int16.</returns>
+        </member>
+    </members>
+</doc>

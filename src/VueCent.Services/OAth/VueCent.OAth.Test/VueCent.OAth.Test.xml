@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.OAth.Test</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.OAth.Test.ServiceTest">
+            <summary>
+            Defines test class ServiceTest.
+            </summary>
+        </member>
+        <member name="M:VueCent.OAth.Test.ServiceTest.TestService">
+            <summary>
+            Defines the test method TestService.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,93 @@
+2021-04-07 11:44:07.049 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-04-07 11:44:07.113 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-04-07 11:44:07.114 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-04-07 11:44:07.114 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-04-07 11:44:07.114 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-04-07 11:44:07.115 +08:00 [VueCent.GateWay] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-04-07 11:44:07.115 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2021-04-07 11:44:07.203 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-04-07 11:44:07.204 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-04-07 11:44:07.204 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-04-07 11:44:07.241 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[172.17.9.74:11800].
+2021-04-07 11:44:07.857 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Reported Service Instance Properties[Service=VueCent.GateWay,InstanceId=172.17.9.65@720115d1bd964fc7bfb7ae083f5557c6].
+2021-04-07 11:44:10.203 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0646587s
+2021-04-07 11:45:37.210 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-04-07 11:45:37.246 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-04-07 11:45:37.246 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-04-07 11:45:37.246 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-04-07 11:45:37.247 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-04-07 11:45:37.247 +08:00 [VueCent.GateWay] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-04-07 11:45:37.247 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2021-04-07 11:45:37.288 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-04-07 11:45:37.288 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-04-07 11:45:37.288 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-04-07 11:45:37.326 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[172.17.9.74:11800].
+2021-04-07 11:45:37.827 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Reported Service Instance Properties[Service=VueCent.GateWay,InstanceId=172.17.9.65@d40b3155e84e44e7b8e125e59e380276].
+2021-04-07 11:45:40.277 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0245058s
+2021-04-07 11:46:07.265 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Ping server @2021/4/7 3:46:07 +00:00
+2021-04-07 11:46:07.294 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 10M ThreadPool 32766 32767 1000 1000
+2021-04-07 11:48:33.601 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-04-07 11:48:33.635 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-04-07 11:48:33.635 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-04-07 11:48:33.636 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-04-07 11:48:33.636 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-04-07 11:48:33.636 +08:00 [VueCent.GateWay] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-04-07 11:48:33.639 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2021-04-07 11:48:33.680 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-04-07 11:48:33.681 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-04-07 11:48:33.681 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-04-07 11:48:33.722 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[172.17.9.74:11800].
+2021-04-07 11:48:34.231 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Reported Service Instance Properties[Service=VueCent.GateWay,InstanceId=172.17.9.65@4f7499e37ba84be4b61073f63c2b17c7].
+2021-04-07 11:48:36.687 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0335575s
+2021-04-07 11:49:03.694 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Ping server @2021/4/7 3:49:03 +00:00
+2021-04-07 11:49:03.694 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 4 4 1 3M ThreadPool 32765 32767 1000 1000
+2021-04-07 13:04:34.135 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-04-07 13:04:34.179 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-04-07 13:04:34.179 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-04-07 13:04:34.180 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-04-07 13:04:34.180 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-04-07 13:04:34.180 +08:00 [VueCent.GateWay] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-04-07 13:04:34.180 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2021-04-07 13:04:34.223 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-04-07 13:04:34.223 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-04-07 13:04:34.224 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-04-07 13:04:34.342 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[172.17.9.74:11800].
+2021-04-07 13:04:34.795 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Reported Service Instance Properties[Service=VueCent.GateWay,InstanceId=172.17.9.65@e0f7dbc5dbc34f6b98a87dd4329d0ecb].
+2021-04-07 13:04:37.214 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0190392s
+2021-04-07 13:05:04.213 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Ping server @2021/4/7 5:05:04 +00:00
+2021-04-07 13:05:04.217 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 1 0 5M ThreadPool 32765 32767 1000 1000
+2021-04-07 13:05:07.200 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0114032s
+2021-04-07 13:05:21.106 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-04-07 13:05:21.138 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-04-07 13:05:21.138 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-04-07 13:05:21.138 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-04-07 13:05:21.138 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-04-07 13:05:21.138 +08:00 [VueCent.GateWay] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-04-07 13:05:21.139 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2021-04-07 13:05:21.179 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-04-07 13:05:21.180 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-04-07 13:05:21.180 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-04-07 13:05:21.217 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[172.17.9.74:11800].
+2021-04-07 13:05:21.723 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Reported Service Instance Properties[Service=VueCent.GateWay,InstanceId=172.17.9.65@9b6c6eb091d941b59072fbe24cc0dce7].
+2021-04-07 13:05:24.167 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0220636s
+2021-04-07 13:06:04.227 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-04-07 13:06:04.260 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-04-07 13:06:04.260 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-04-07 13:06:04.260 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-04-07 13:06:04.260 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-04-07 13:06:04.260 +08:00 [VueCent.GateWay] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-04-07 13:06:04.260 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2021-04-07 13:06:04.298 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-04-07 13:06:04.299 +08:00 [VueCent.GateWay] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-04-07 13:06:04.299 +08:00 [VueCent.GateWay] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-04-07 13:06:04.341 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[172.17.9.74:11800].
+2021-04-07 13:06:04.852 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.RegisterService : Reported Service Instance Properties[Service=VueCent.GateWay,InstanceId=172.17.9.65@5ce872a26909465f97d4592a807b7e27].
+2021-04-07 13:06:07.344 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 3 trace segment. cost: 00:00:00.0660547s
+2021-04-07 13:06:34.296 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Ping server @2021/4/7 5:06:34 +00:00
+2021-04-07 13:06:34.299 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32765 32767 1000 1000
+2021-04-07 13:07:04.274 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32766 32767 1000 1000
+2021-04-07 13:07:34.281 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.PingService : Ping server @2021/4/7 5:07:34 +00:00
+2021-04-07 13:07:34.281 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32756 32767 1000 1000
+2021-04-07 13:08:04.288 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0158811s
+2021-04-07 13:08:04.302 +08:00 [VueCent.GateWay] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 14M ThreadPool 32760 32767 1000 1000
+2021-04-07 13:08:19.276 +08:00 [VueCent.GateWay] [Information] SkyApm.Transport.Grpc.V8.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0062797s

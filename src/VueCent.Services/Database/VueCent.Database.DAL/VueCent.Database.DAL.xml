@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Database.DAL</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Database.DAL.SysUserDAL">
+            <summary>
+            Class SysUserDAL.
+            Implements the <see cref="!:VueCent.Factory.SqlSuagr.BaseTableDAL&lt;VueCent.Database.Model.SysUserModel&gt;" />
+            </summary>
+            <seealso cref="!:VueCent.Factory.SqlSuagr.BaseTableDAL&lt;VueCent.Database.Model.SysUserModel&gt;" />
+        </member>
+    </members>
+</doc>

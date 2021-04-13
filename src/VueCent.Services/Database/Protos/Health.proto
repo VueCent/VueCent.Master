@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+import "google/api/annotations.proto";
+
+option csharp_namespace = "VueCent.Database.DTO";
+
+service Health {
+    rpc Check (HealthCheckRequest) returns (HealthCheckReply) {
+		option (google.api.http) = {
+			get: "/Health/Check"
+		};
+	}
+}
+
+message HealthCheckRequest {
+}
+
+message HealthCheckReply {
+}
