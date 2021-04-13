@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Grpc.Consul</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Grpc.Consul.Config">
+            <summary>
+            Class Config.
+            Implements the <see cref="T:VueCent.Grpc.IConfig" />
+            </summary>
+            <seealso cref="T:VueCent.Grpc.IConfig" />
+        </member>
+        <member name="P:VueCent.Grpc.Consul.Config.Name">
+            <summary>
+            Gets or sets the name of the service.
+            </summary>
+            <value>The name of the service.</value>
+        </member>
+        <member name="P:VueCent.Grpc.Consul.Config.Host">
+            <summary>
+            Gets or sets the name of the host.
+            </summary>
+            <value>The name of the host.</value>
+        </member>
+        <member name="T:VueCent.Grpc.Consul.GrpcExtensions">
+            <summary>
+            Class GrpcExtensions.
+            </summary>
+        </member>
+        <member name="M:VueCent.Grpc.Consul.GrpcExtensions.UseConsul(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Uses the consul.
+            </summary>
+            <param name="builder">The builder.</param>
+            <param name="configuration">The configuration.</param>
+            <returns>IApplicationBuilder.</returns>
+        </member>
+        <member name="T:VueCent.Grpc.Consul.GrpcHelper">
+            <summary>
+            Class GrpcHelper.
+            Implements the <see cref="T:VueCent.Grpc.IGrpc" />
+            </summary>
+            <seealso cref="T:VueCent.Grpc.IGrpc" />
+        </member>
+        <member name="F:VueCent.Grpc.Consul.GrpcHelper.List">
+            <summary>
+            The list
+            </summary>
+        </member>
+    </members>
+</doc>

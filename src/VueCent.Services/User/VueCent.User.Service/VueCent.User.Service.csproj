@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UserSecretsId>7a274c79-8ba4-4a46-b478-0a66120d5b57</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>VueCent.User.Service.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Grpc.AspNetCore.Server" Version="2.36.0" />
+		<PackageReference Include="Com.Ctrip.Framework.Apollo.Configuration" Version="2.4.1" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+		<PackageReference Include="SkyAPM.Agent.AspNetCore" Version="1.2.0" />
+		<PackageReference Include="VueCent.Cache.Redis" Version="1.2.1" />
+		<PackageReference Include="VueCent.Factory.SqlSuagr" Version="1.2.1" />
+		<PackageReference Include="VueCent.Log.Exceptionless" Version="1.2.1" />
+		<PackageReference Include="VueCent.Register.Consul" Version="1.2.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\VueCent.User.DTO\VueCent.User.DTO.csproj" />
+		<ProjectReference Include="..\VueCent.User.Entity\VueCent.User.Model.csproj" />
+	</ItemGroup>
+
+</Project>

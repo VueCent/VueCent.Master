@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UserSecretsId>68c3f5a2-a556-4c65-b2bc-cc3d1d28ce39</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>VueCent.GateWay.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Com.Ctrip.Framework.Apollo.Configuration" Version="2.4.1" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+		<PackageReference Include="Ocelot" Version="17.0.0" />
+		<PackageReference Include="Ocelot.Administration" Version="17.0.0" />
+		<PackageReference Include="Ocelot.Cache.CacheManager" Version="17.0.0" />
+		<PackageReference Include="Ocelot.Provider.Consul" Version="17.0.0" />
+		<PackageReference Include="Ocelot.Provider.Polly" Version="17.0.0" />
+		<PackageReference Include="SkyAPM.Agent.AspNetCore" Version="1.2.0" />
+		<PackageReference Include="VueCent.Log.Exceptionless" Version="1.2.1" />
+	</ItemGroup>
+
+</Project>

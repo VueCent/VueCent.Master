@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<VersionPrefix>1.2.1</VersionPrefix>
+		<Authors>VueCent</Authors>
+		<Description>VueCent</Description>
+		<PackageProjectUrl>https://github.com/VueCent/VueCent.Master</PackageProjectUrl>
+		<PackageReleaseNotes>VueCent</PackageReleaseNotes>
+		<PackageTags>VueCent</PackageTags>
+		<RepositoryType></RepositoryType>
+		<RepositoryUrl></RepositoryUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Copyright>VueCent © All Right</Copyright>
+		<PackageIcon></PackageIcon>
+		<NeutralLanguage>zh</NeutralLanguage>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>VueCent.Register.Consul.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="VueCent.Register.Consul.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Consul" Version="1.6.1.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\VueCent.Core\VueCent.Core.csproj" />
+		<ProjectReference Include="..\VueCent.Register\VueCent.Register.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Register.Consul</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Register.Consul.Config">
+            <summary>
+            Class Config.
+            Implements the <see cref="T:VueCent.Register.IConfig" />
+            </summary>
+            <seealso cref="T:VueCent.Register.IConfig" />
+        </member>
+        <member name="P:VueCent.Register.Consul.Config.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:VueCent.Register.Consul.Config.Host">
+            <summary>
+            Gets or sets the host.
+            </summary>
+            <value>The host.</value>
+        </member>
+        <member name="P:VueCent.Register.Consul.Config.Interval">
+            <summary>
+            Gets or sets the interval.
+            </summary>
+            <value>The interval.</value>
+        </member>
+        <member name="P:VueCent.Register.Consul.Config.Timeout">
+            <summary>
+            Gets or sets the timeout.
+            </summary>
+            <value>The timeout.</value>
+        </member>
+        <member name="P:VueCent.Register.Consul.Config.DeregisterCriticalServiceAfter">
+            <summary>
+            Gets or sets the deregister critical service after.
+            </summary>
+            <value>The deregister critical service after.</value>
+        </member>
+        <member name="P:VueCent.Register.Consul.Config.IP">
+            <summary>
+            Gets or sets the ip.
+            </summary>
+            <value>The ip.</value>
+        </member>
+        <member name="P:VueCent.Register.Consul.Config.Port">
+            <summary>
+            Gets or sets the port.
+            </summary>
+            <value>The port.</value>
+        </member>
+        <member name="T:VueCent.Register.Consul.ConsulExtensions">
+            <summary>
+            Class ConsulExtensions.
+            </summary>
+        </member>
+        <member name="M:VueCent.Register.Consul.ConsulExtensions.UseConsul(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Uses the consul.
+            </summary>
+            <param name="builder">The builder.</param>
+            <param name="configuration">The configuration.</param>
+            <returns>IApplicationBuilder.</returns>
+        </member>
+        <member name="T:VueCent.Register.Consul.ConsulHelper">
+            <summary>
+            Class ConsulHelper.
+            Implements the <see cref="T:VueCent.Register.IRegister" />
+            </summary>
+            <seealso cref="T:VueCent.Register.IRegister" />
+        </member>
+        <member name="P:VueCent.Register.Consul.ConsulHelper.BaseUrl">
+            <summary>
+            Gets the base URL.
+            </summary>
+            <value>The base URL.</value>
+        </member>
+        <member name="P:VueCent.Register.Consul.ConsulHelper.Client">
+            <summary>
+            Gets the client.
+            </summary>
+            <value>The client.</value>
+        </member>
+        <member name="M:VueCent.Register.Consul.ConsulHelper.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:VueCent.Register.Consul.ConsulHelper" /> class.
+            </summary>
+        </member>
+        <member name="M:VueCent.Register.Consul.ConsulHelper.Get(System.String)">
+            <summary>
+            Gets the specified name.
+            </summary>
+            <param name="name">The name.</param>
+            <returns>IConfig.</returns>
+        </member>
+        <member name="M:VueCent.Register.Consul.ConsulHelper.Set(VueCent.Register.IConfig)">
+            <summary>
+            Sets the specified configuration.
+            </summary>
+            <param name="config">The configuration.</param>
+        </member>
+    </members>
+</doc>

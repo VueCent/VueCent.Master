@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<VersionPrefix>1.2.1</VersionPrefix>
+		<Authors>VueCent</Authors>
+		<Description>VueCent</Description>
+		<PackageProjectUrl>https://github.com/VueCent/VueCent.Master</PackageProjectUrl>
+		<PackageReleaseNotes>VueCent</PackageReleaseNotes>
+		<PackageTags>VueCent</PackageTags>
+		<RepositoryType></RepositoryType>
+		<RepositoryUrl></RepositoryUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Copyright>VueCent © All Right</Copyright>
+		<PackageIcon></PackageIcon>
+		<NeutralLanguage>zh</NeutralLanguage>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>VueCent.Factory.SqlSuagr.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="SqlSugarCore" Version="5.0.2.8" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\VueCent.Core\VueCent.Core.csproj" />
+		<ProjectReference Include="..\VueCent.Data\VueCent.Data.csproj" />
+		<ProjectReference Include="..\VueCent.Factory\VueCent.Factory.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Web</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Web.CookieHelper">
+            <summary>
+            Class CookieHelper. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="F:VueCent.Web.CookieHelper._context">
+            <summary>
+            The context
+            </summary>
+        </member>
+        <member name="M:VueCent.Web.CookieHelper.#ctor(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VueCent.Web.CookieHelper" /> class.
+            </summary>
+            <param name="context">The context.</param>
+        </member>
+        <member name="M:VueCent.Web.CookieHelper.SetCookie(System.String,System.String)">
+            <summary>
+            Sets the cookie.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:VueCent.Web.CookieHelper.SetCookie(System.String,System.String,System.Double)">
+            <summary>
+            Sets the cookie.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <param name="day">The day.</param>
+        </member>
+        <member name="M:VueCent.Web.CookieHelper.GetCookie(System.String)">
+            <summary>
+            Gets the cookie.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Web.CookieHelper.ClearCookie">
+            <summary>
+            Clears the cookie.
+            </summary>
+        </member>
+        <member name="M:VueCent.Web.CookieHelper.ClearCookie(System.String)">
+            <summary>
+            Clears the cookie.
+            </summary>
+            <param name="key">The key.</param>
+        </member>
+        <member name="T:VueCent.Web.SessionHelper">
+            <summary>
+            Class SessionHelper. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="F:VueCent.Web.SessionHelper._context">
+            <summary>
+            The context
+            </summary>
+        </member>
+        <member name="M:VueCent.Web.SessionHelper.#ctor(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VueCent.Web.SessionHelper" /> class.
+            </summary>
+            <param name="context">The context.</param>
+        </member>
+        <member name="M:VueCent.Web.SessionHelper.ClearSession">
+            <summary>
+            Clears the session.
+            </summary>
+        </member>
+        <member name="M:VueCent.Web.SessionHelper.ClearSession(System.String)">
+            <summary>
+            Clears the session.
+            </summary>
+            <param name="key">The key.</param>
+        </member>
+        <member name="M:VueCent.Web.SessionHelper.GetSession(System.String)">
+            <summary>
+            Gets the session.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Web.SessionHelper.SetSession(System.String,System.String)">
+            <summary>
+            Sets the session.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+    </members>
+</doc>

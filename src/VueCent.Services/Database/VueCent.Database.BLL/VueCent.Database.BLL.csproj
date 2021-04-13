@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>VueCent.Database.BLL.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="VueCent.Factory.SqlSuagr" Version="1.2.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\VueCent.Database.DAL\VueCent.Database.DAL.csproj" />
+		<ProjectReference Include="..\VueCent.Database.Model\VueCent.Database.Model.csproj" />
+	</ItemGroup>
+
+</Project>

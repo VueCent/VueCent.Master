@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Cryptography</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Cryptography.AESHelper">
+            <summary>
+            Class AESHelper.
+            </summary>
+        </member>
+        <member name="M:VueCent.Cryptography.AESHelper.EncryptAES(System.String,System.String)">
+            <summary>
+            Encrypts the aes.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.AESHelper.EncryptAES(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            Encrypts the aes.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.AESHelper.EncryptAES(System.String,System.String,System.Text.Encoding,System.Security.Cryptography.CipherMode)">
+            <summary>
+            Encrypts the aes.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="mode">The mode.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.AESHelper.EncryptAES(System.String,System.String,System.Text.Encoding,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)">
+            <summary>
+            Encrypts the aes.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="mode">The mode.</param>
+            <param name="padding">The padding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.AESHelper.DecryptAES(System.String,System.String)">
+            <summary>
+            Decrypts the aes.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.AESHelper.DecryptAES(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            Decrypts the aes.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.AESHelper.DecryptAES(System.String,System.String,System.Text.Encoding,System.Security.Cryptography.CipherMode)">
+            <summary>
+            Decrypts the aes.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="mode">The mode.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.AESHelper.DecryptAES(System.String,System.String,System.Text.Encoding,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)">
+            <summary>
+            Decrypts the aes.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="mode">The mode.</param>
+            <param name="padding">The padding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:VueCent.Cryptography.Base64Helper">
+            <summary>
+            Class Base64Helper.
+            </summary>
+        </member>
+        <member name="M:VueCent.Cryptography.Base64Helper.EncryptBase64(System.Byte[])">
+            <summary>
+            Encrypts the base64.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.Base64Helper.DecryptBase64(System.String)">
+            <summary>
+            Decrypts the base64.
+            </summary>
+            <param name="str">The string.</param>
+            <returns>System.Byte[].</returns>
+        </member>
+        <member name="T:VueCent.Cryptography.DESHelper">
+            <summary>
+            Class DESHelper.
+            </summary>
+        </member>
+        <member name="M:VueCent.Cryptography.DESHelper.EncryptDES(System.String,System.String)">
+            <summary>
+            Encrypts the DES.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.DESHelper.EncryptDES(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            Encrypts the DES.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.DESHelper.EncryptDES(System.String,System.String,System.Text.Encoding,System.Security.Cryptography.CipherMode)">
+            <summary>
+            Encrypts the DES.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="mode">The mode.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.DESHelper.EncryptDES(System.String,System.String,System.Text.Encoding,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)">
+            <summary>
+            Encrypts the DES.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="mode">The mode.</param>
+            <param name="padding">The padding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.DESHelper.DecryptDES(System.String,System.String)">
+            <summary>
+            Decrypts the DES.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.DESHelper.DecryptDES(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            Decrypts the DES.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.DESHelper.DecryptDES(System.String,System.String,System.Text.Encoding,System.Security.Cryptography.CipherMode)">
+            <summary>
+            Decrypts the DES.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="mode">The mode.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.DESHelper.DecryptDES(System.String,System.String,System.Text.Encoding,System.Security.Cryptography.CipherMode,System.Security.Cryptography.PaddingMode)">
+            <summary>
+            Decrypts the DES.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="mode">The mode.</param>
+            <param name="padding">The padding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:VueCent.Cryptography.MD5Helper">
+            <summary>
+            Class MD5Helper.
+            </summary>
+        </member>
+        <member name="M:VueCent.Cryptography.MD5Helper.EncryptMD5(System.String)">
+            <summary>
+            Encrypts the m d5.
+            </summary>
+            <param name="str">The string.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.MD5Helper.EncryptMD5(System.String,System.Text.Encoding)">
+            <summary>
+            Encrypts the m d5.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:VueCent.Cryptography.RSAHelper">
+            <summary>
+            Class RSAHelper.
+            </summary>
+        </member>
+        <member name="M:VueCent.Cryptography.RSAHelper.EncryptRSA(System.String,System.String@)">
+            <summary>
+            Encrypts the RSA.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.RSAHelper.EncryptRSA(System.String,System.String@,System.Text.Encoding)">
+            <summary>
+            Encrypts the RSA.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.RSAHelper.DecryptRSA(System.String,System.String)">
+            <summary>
+            Decrypts the RSA.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.RSAHelper.DecryptRSA(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            Decrypts the RSA.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="key">The key.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:VueCent.Cryptography.SHAHelper">
+            <summary>
+            Class SHAHelper.
+            </summary>
+        </member>
+        <member name="M:VueCent.Cryptography.SHAHelper.EncryptSHA(System.String)">
+            <summary>
+            Encrypts the sha.
+            </summary>
+            <param name="str">The string.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:VueCent.Cryptography.SHAHelper.EncryptSHA(System.String,System.Text.Encoding)">
+            <summary>
+            Encrypts the sha.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+        </member>
+    </members>
+</doc>

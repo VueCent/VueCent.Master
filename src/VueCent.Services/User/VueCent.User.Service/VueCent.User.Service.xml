@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.User.Service</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.User.Service.Program">
+            <summary>
+            Class Program.
+            </summary>
+        </member>
+        <member name="M:VueCent.User.Service.Program.Main(System.String[])">
+            <summary>
+            Defines the entry point of the application.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:VueCent.User.Service.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Creates the host builder.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns>IHostBuilder.</returns>
+        </member>
+        <member name="T:VueCent.User.Service.Services.HealthService">
+            <summary>
+            Class HealthService.
+            Implements the <see cref="T:VueCent.User.DTO.Health.HealthBase" />
+            </summary>
+            <seealso cref="T:VueCent.User.DTO.Health.HealthBase" />
+        </member>
+        <member name="M:VueCent.User.Service.Services.HealthService.Check(VueCent.User.DTO.HealthCheckRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Checks the specified request.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="context">The context.</param>
+            <returns>Task&lt;HealthCheckReply&gt;.</returns>
+        </member>
+        <member name="T:VueCent.User.Service.Services.UserService">
+            <summary>
+            Class UserService.
+            Implements the <see cref="T:VueCent.User.DTO.Users.UsersBase" />
+            </summary>
+            <seealso cref="T:VueCent.User.DTO.Users.UsersBase" />
+        </member>
+        <member name="M:VueCent.User.Service.Services.UserService.GetUser(VueCent.User.DTO.UserRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Gets the user.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="context">The context.</param>
+            <returns>Task&lt;UserReply&gt;.</returns>
+        </member>
+        <member name="M:VueCent.User.Service.Services.UserService.PostUser(VueCent.User.DTO.UserRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Posts the user.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="context">The context.</param>
+            <returns>Task&lt;UserReply&gt;.</returns>
+        </member>
+        <member name="M:VueCent.User.Service.Services.UserService.GetBaseMessage(VueCent.User.DTO.UserRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Gets the base message.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="context">The context.</param>
+            <returns>Task&lt;BaseMessage&gt;.</returns>
+        </member>
+        <member name="M:VueCent.User.Service.Services.UserService.GetModeMessage(VueCent.User.DTO.UserRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Gets the mode message.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="context">The context.</param>
+            <returns>Task&lt;ModeMessage&gt;.</returns>
+        </member>
+        <member name="M:VueCent.User.Service.Services.UserService.GetPageMessage(VueCent.User.DTO.UserRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Gets the page message.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="context">The context.</param>
+            <returns>Task&lt;PageMessage&gt;.</returns>
+        </member>
+        <member name="M:VueCent.User.Service.Services.UserService.GetKeyValue(VueCent.User.DTO.UserRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Gets the key value.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="context">The context.</param>
+            <returns>Task&lt;KeyValue&gt;.</returns>
+        </member>
+        <member name="T:VueCent.User.Service.Startup">
+            <summary>
+            Class Startup.
+            </summary>
+        </member>
+        <member name="P:VueCent.User.Service.Startup.configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+            <value>The configuration.</value>
+        </member>
+        <member name="M:VueCent.User.Service.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VueCent.User.Service.Startup" /> class.
+            </summary>
+            <param name="configuration">The configuration.</param>
+        </member>
+        <member name="M:VueCent.User.Service.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures the services.
+            </summary>
+            <param name="services">The services.</param>
+        </member>
+        <member name="M:VueCent.User.Service.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configures the specified application.
+            </summary>
+            <param name="app">The application.</param>
+            <param name="env">The env.</param>
+        </member>
+    </members>
+</doc>

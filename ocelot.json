@@ -1,0 +1,70 @@
+{
+    "Routes": [
+        {
+            //下游请求Url模板
+            "DownstreamPathTemplate": "/{url}",
+            //下游服务协议
+            "DownstreamScheme": "http",
+            //启用consul服务
+            "UseServiceDiscovery": true,
+            //服务器名称
+            "ServiceName": "Template",
+            //权重
+            "Priority": 0,
+            //上游请求Url模板
+            "UpstreamPathTemplate": "/api/{url}",
+            //上游请求方法
+            "UpstreamHttpMethod": [ "Get", "Post" ],
+            //负载均衡
+            "LoadBalancerOptions": {
+                //LeastConnection           请求最少
+                //RoundRobin                轮询
+                //NoLoadBalancer            不负载均衡
+                //CookieStickySessions      cookie关联
+                "Type": "RoundRobin"
+            },
+            //限流
+            "RateLimitOptions": {
+                //白名单
+                "ClientWhitelist": [],
+                //启用限流
+                "EnableRateLimiting": true,
+                //限流控制的时间周期
+                "Period": "1m",
+                //恢复等待时间
+                "PeriodTimespan": 10,
+                //一个时间周期内允许访问的最大次数。
+                "Limit": 5
+            },
+            //治理
+            "QoSOptions": {
+                //允许异常次数
+                "ExceptionsAllowedBeforeBreaking": 3,
+                //熔断时间
+                "DurationOfBreak": 3000,
+                //超时时间
+                "TimeoutValue": 5000
+            },
+            //缓存
+            "FileCacheOptions": {
+                //缓存时间
+                "TtlSeconds": 15,
+                //白名单
+                "Region": ""
+            }
+        }
+    ],
+    //全局配置项
+    "GlobalConfiguration": {
+        //服务对外暴露的Url
+        "BaseUrl": "http://localhost:7001",
+        //服务发现
+        "ServiceDiscoveryProvider": {
+            "Scheme": "http",
+            "Host": "localhost",
+            "Port": 8500,
+            "Type": "Consul",
+            "PollingInterval": 100
+        }
+    }
+}

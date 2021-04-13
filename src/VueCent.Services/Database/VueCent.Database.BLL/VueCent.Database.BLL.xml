@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Database.BLL</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Database.BLL.SysUserBLL">
+            <summary>
+            Class SysUserBLL.
+            Implements the <see cref="!:VueCent.Factory.SqlSuagr.BaseTableBLL&lt;VueCent.Database.Model.SysUserModel&gt;" />
+            </summary>
+            <seealso cref="!:VueCent.Factory.SqlSuagr.BaseTableBLL&lt;VueCent.Database.Model.SysUserModel&gt;" />
+        </member>
+        <member name="P:VueCent.Database.BLL.SysUserBLL.DAL">
+            <summary>
+            Gets the dal.
+            </summary>
+            <value>The dal.</value>
+        </member>
+    </members>
+</doc>

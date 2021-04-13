@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.User.DTO</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.User.DTO.UserReflection">
+            <summary>Holder for reflection information generated from User.proto</summary>
+        </member>
+        <member name="P:VueCent.User.DTO.UserReflection.Descriptor">
+            <summary>File descriptor for User.proto</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.UserRequest.UserNameFieldNumber">
+            <summary>Field number for the "UserName" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.UserRequest.PasswordFieldNumber">
+            <summary>Field number for the "Password" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.UserReply.IdFieldNumber">
+            <summary>Field number for the "Id" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.UserReply.UserNameFieldNumber">
+            <summary>Field number for the "UserName" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.BaseMessage.SucceedFieldNumber">
+            <summary>Field number for the "Succeed" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.BaseMessage.CodeFieldNumber">
+            <summary>Field number for the "Code" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.BaseMessage.MessageFieldNumber">
+            <summary>Field number for the "Message" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.ModeMessage.SucceedFieldNumber">
+            <summary>Field number for the "Succeed" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.ModeMessage.CodeFieldNumber">
+            <summary>Field number for the "Code" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.ModeMessage.MessageFieldNumber">
+            <summary>Field number for the "Message" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.ModeMessage.DataFieldNumber">
+            <summary>Field number for the "Data" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.PageMessage.SucceedFieldNumber">
+            <summary>Field number for the "Succeed" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.PageMessage.CodeFieldNumber">
+            <summary>Field number for the "Code" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.PageMessage.MessageFieldNumber">
+            <summary>Field number for the "Message" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.PageMessage.TotalFieldNumber">
+            <summary>Field number for the "Total" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.PageMessage.RowsFieldNumber">
+            <summary>Field number for the "Rows" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.PageMessage.LimitFieldNumber">
+            <summary>Field number for the "Limit" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.PageMessage.OffsetFieldNumber">
+            <summary>Field number for the "Offset" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.KeyValue.KeyFieldNumber">
+            <summary>Field number for the "Key" field.</summary>
+        </member>
+        <member name="F:VueCent.User.DTO.KeyValue.ValueFieldNumber">
+            <summary>Field number for the "Value" field.</summary>
+        </member>
+        <member name="P:VueCent.User.DTO.Users.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:VueCent.User.DTO.Users.UsersBase">
+            <summary>Base class for server-side implementations of Users</summary>
+        </member>
+        <member name="T:VueCent.User.DTO.Users.UsersClient">
+            <summary>Client for Users</summary>
+        </member>
+        <member name="M:VueCent.User.DTO.Users.UsersClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for Users</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:VueCent.User.DTO.Users.UsersClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for Users that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:VueCent.User.DTO.Users.UsersClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:VueCent.User.DTO.Users.UsersClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:VueCent.User.DTO.Users.UsersClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:VueCent.User.DTO.Users.BindService(VueCent.User.DTO.Users.UsersBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:VueCent.User.DTO.Users.BindService(Grpc.Core.ServiceBinderBase,VueCent.User.DTO.Users.UsersBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:VueCent.User.DTO.HealthReflection">
+            <summary>Holder for reflection information generated from Health.proto</summary>
+        </member>
+        <member name="P:VueCent.User.DTO.HealthReflection.Descriptor">
+            <summary>File descriptor for Health.proto</summary>
+        </member>
+        <member name="P:VueCent.User.DTO.Health.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:VueCent.User.DTO.Health.HealthBase">
+            <summary>Base class for server-side implementations of Health</summary>
+        </member>
+        <member name="T:VueCent.User.DTO.Health.HealthClient">
+            <summary>Client for Health</summary>
+        </member>
+        <member name="M:VueCent.User.DTO.Health.HealthClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for Health</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:VueCent.User.DTO.Health.HealthClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for Health that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:VueCent.User.DTO.Health.HealthClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:VueCent.User.DTO.Health.HealthClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:VueCent.User.DTO.Health.HealthClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:VueCent.User.DTO.Health.BindService(VueCent.User.DTO.Health.HealthBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:VueCent.User.DTO.Health.BindService(Grpc.Core.ServiceBinderBase,VueCent.User.DTO.Health.HealthBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+    </members>
+</doc>

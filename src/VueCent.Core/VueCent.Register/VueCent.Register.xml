@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.Register</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.Register.IConfig">
+            <summary>
+            Interface IConfig
+            </summary>
+        </member>
+        <member name="P:VueCent.Register.IConfig.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:VueCent.Register.IConfig.Host">
+            <summary>
+            Gets or sets the host.
+            </summary>
+            <value>The host.</value>
+        </member>
+        <member name="P:VueCent.Register.IConfig.IP">
+            <summary>
+            Gets or sets the ip.
+            </summary>
+            <value>The ip.</value>
+        </member>
+        <member name="P:VueCent.Register.IConfig.Port">
+            <summary>
+            Gets or sets the port.
+            </summary>
+            <value>The port.</value>
+        </member>
+        <member name="T:VueCent.Register.IRegister">
+            <summary>
+            Interface IRegister
+            </summary>
+        </member>
+        <member name="M:VueCent.Register.IRegister.Set(VueCent.Register.IConfig)">
+            <summary>
+            Sets the specified configuration.
+            </summary>
+            <param name="config">The configuration.</param>
+        </member>
+        <member name="M:VueCent.Register.IRegister.Get(System.String)">
+            <summary>
+            Gets the specified name.
+            </summary>
+            <param name="name">The name.</param>
+            <returns>IConfig.</returns>
+        </member>
+    </members>
+</doc>

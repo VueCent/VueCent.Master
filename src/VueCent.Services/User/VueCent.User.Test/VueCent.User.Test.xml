@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VueCent.User.Test</name>
+    </assembly>
+    <members>
+        <member name="T:VueCent.User.Test.TestService">
+            <summary>
+            Defines test class TestService.
+            </summary>
+        </member>
+    </members>
+</doc>
