@@ -1,6 +1,6 @@
 ## VueCent.Master
 
-an .net 5 microservice architecture with grpc
+an .net 5 microservice architecture with Grpc
 
 ## Technology
 
